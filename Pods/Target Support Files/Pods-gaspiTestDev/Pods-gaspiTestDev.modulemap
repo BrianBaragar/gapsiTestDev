@@ -1,0 +1,6 @@
+framework module Pods_gaspiTestDev {
+  umbrella header "Pods-gaspiTestDev-umbrella.h"
+
+  export *
+  module * { export * }
+}
