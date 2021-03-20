@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="gaspiTestDev" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="v4L-kJ-U0N" id="Fc2-09-08g"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,9 +18,25 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="HomeViewController" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v4L-kJ-U0N">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="nBK-B5-U1u"/>
+                        <outlet property="delegate" destination="-1" id="usw-iP-foO"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="71" y="92"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v4L-kJ-U0N" secondAttribute="bottom" id="Dmq-cp-5R0"/>
+                <constraint firstItem="v4L-kJ-U0N" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="atX-MF-gpB"/>
+                <constraint firstItem="v4L-kJ-U0N" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="w2f-8P-LrL"/>
+                <constraint firstItem="v4L-kJ-U0N" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zbG-ji-U0V"/>
+            </constraints>
+            <point key="canvasLocation" x="69.565217391304358" y="91.741071428571431"/>
         </view>
     </objects>
     <resources>

@@ -17,6 +17,11 @@
 		1143144F26068E9C00529223 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1143144D26068E9C00529223 /* HomeViewController.xib */; };
 		1143145326068EA900529223 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143145226068EA800529223 /* HomeViewModel.swift */; };
 		1143145626068EB300529223 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143145526068EB300529223 /* HomeRouter.swift */; };
+		1143145B2606930100529223 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143145A2606930100529223 /* Extensions.swift */; };
+		1143145E2606952700529223 /* SimpleResposeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143145D2606952700529223 /* SimpleResposeModel.swift */; };
+		114314612606953300529223 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114314602606953300529223 /* Product.swift */; };
+		1143146C26069E1E00529223 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143146A26069E1E00529223 /* ProductCell.swift */; };
+		1143146D26069E1E00529223 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1143146B26069E1E00529223 /* ProductCell.xib */; };
 		34E1D1FE3252A872D8899970 /* Pods_gaspiTestDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5834461D10CD43689A75A3C /* Pods_gaspiTestDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +38,11 @@
 		1143144D26068E9C00529223 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		1143145226068EA800529223 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1143145526068EB300529223 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		1143145A2606930100529223 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = gaspiTestDev/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		1143145D2606952700529223 /* SimpleResposeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleResposeModel.swift; sourceTree = "<group>"; };
+		114314602606953300529223 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1143146A26069E1E00529223 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		1143146B26069E1E00529223 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		4AFB74C060A2E38EB4B51417 /* Pods-gaspiTestDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaspiTestDev.debug.xcconfig"; path = "Target Support Files/Pods-gaspiTestDev/Pods-gaspiTestDev.debug.xcconfig"; sourceTree = "<group>"; };
 		C5834461D10CD43689A75A3C /* Pods_gaspiTestDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gaspiTestDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5504F4B83EB379F1BDDAD4 /* Pods-gaspiTestDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaspiTestDev.release.xcconfig"; path = "Target Support Files/Pods-gaspiTestDev/Pods-gaspiTestDev.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +96,7 @@
 		1143143626068C9100529223 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				11431459260692F000529223 /* Extensions */,
 			);
 			name = Resourses;
 			path = "New Group1";
@@ -96,6 +107,7 @@
 			children = (
 				1143143826068D0F00529223 /* ManagerConection.swift */,
 				1143143C26068D3200529223 /* API.swift */,
+				1143145D2606952700529223 /* SimpleResposeModel.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -124,6 +136,8 @@
 			children = (
 				1143144C26068E9C00529223 /* HomeViewController.swift */,
 				1143144D26068E9C00529223 /* HomeViewController.xib */,
+				1143146A26069E1E00529223 /* ProductCell.swift */,
+				1143146B26069E1E00529223 /* ProductCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -139,8 +153,17 @@
 		1143144B26068E7800529223 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				114314602606953300529223 /* Product.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		11431459260692F000529223 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1143145A2606930100529223 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C3F2DB8798E454ECFF822D97 /* Frameworks */ = {
@@ -220,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1143142C26068C6500529223 /* LaunchScreen.storyboard in Resources */,
+				1143146D26069E1E00529223 /* ProductCell.xib in Resources */,
 				1143142926068C6500529223 /* Assets.xcassets in Resources */,
 				1143144F26068E9C00529223 /* HomeViewController.xib in Resources */,
 			);
@@ -274,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1143145E2606952700529223 /* SimpleResposeModel.swift in Sources */,
+				1143146C26069E1E00529223 /* ProductCell.swift in Sources */,
 				1143142026068C6300529223 /* AppDelegate.swift in Sources */,
 				1143145326068EA900529223 /* HomeViewModel.swift in Sources */,
 				1143143926068D0F00529223 /* ManagerConection.swift in Sources */,
+				1143145B2606930100529223 /* Extensions.swift in Sources */,
+				114314612606953300529223 /* Product.swift in Sources */,
 				1143142226068C6300529223 /* SceneDelegate.swift in Sources */,
 				1143145626068EB300529223 /* HomeRouter.swift in Sources */,
 				1143143D26068D3200529223 /* API.swift in Sources */,
