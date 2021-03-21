@@ -20,8 +20,8 @@
 		1143145B2606930100529223 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143145A2606930100529223 /* Extensions.swift */; };
 		1143145E2606952700529223 /* SimpleResposeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143145D2606952700529223 /* SimpleResposeModel.swift */; };
 		114314612606953300529223 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114314602606953300529223 /* Product.swift */; };
-		1143146C26069E1E00529223 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143146A26069E1E00529223 /* ProductCell.swift */; };
-		1143146D26069E1E00529223 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1143146B26069E1E00529223 /* ProductCell.xib */; };
+		114314722606AC4200529223 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114314702606AC4200529223 /* ProductViewCell.swift */; };
+		114314732606AC4200529223 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114314712606AC4200529223 /* ProductViewCell.xib */; };
 		34E1D1FE3252A872D8899970 /* Pods_gaspiTestDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5834461D10CD43689A75A3C /* Pods_gaspiTestDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +41,8 @@
 		1143145A2606930100529223 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = gaspiTestDev/Extensions.swift; sourceTree = SOURCE_ROOT; };
 		1143145D2606952700529223 /* SimpleResposeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleResposeModel.swift; sourceTree = "<group>"; };
 		114314602606953300529223 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		1143146A26069E1E00529223 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		1143146B26069E1E00529223 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		114314702606AC4200529223 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
+		114314712606AC4200529223 /* ProductViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
 		4AFB74C060A2E38EB4B51417 /* Pods-gaspiTestDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaspiTestDev.debug.xcconfig"; path = "Target Support Files/Pods-gaspiTestDev/Pods-gaspiTestDev.debug.xcconfig"; sourceTree = "<group>"; };
 		C5834461D10CD43689A75A3C /* Pods_gaspiTestDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gaspiTestDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5504F4B83EB379F1BDDAD4 /* Pods-gaspiTestDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaspiTestDev.release.xcconfig"; path = "Target Support Files/Pods-gaspiTestDev/Pods-gaspiTestDev.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 			children = (
 				1143144C26068E9C00529223 /* HomeViewController.swift */,
 				1143144D26068E9C00529223 /* HomeViewController.xib */,
-				1143146A26069E1E00529223 /* ProductCell.swift */,
-				1143146B26069E1E00529223 /* ProductCell.xib */,
+				114314702606AC4200529223 /* ProductViewCell.swift */,
+				114314712606AC4200529223 /* ProductViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -242,8 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114314732606AC4200529223 /* ProductViewCell.xib in Resources */,
 				1143142C26068C6500529223 /* LaunchScreen.storyboard in Resources */,
-				1143146D26069E1E00529223 /* ProductCell.xib in Resources */,
 				1143142926068C6500529223 /* Assets.xcassets in Resources */,
 				1143144F26068E9C00529223 /* HomeViewController.xib in Resources */,
 			);
@@ -299,7 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1143145E2606952700529223 /* SimpleResposeModel.swift in Sources */,
-				1143146C26069E1E00529223 /* ProductCell.swift in Sources */,
 				1143142026068C6300529223 /* AppDelegate.swift in Sources */,
 				1143145326068EA900529223 /* HomeViewModel.swift in Sources */,
 				1143143926068D0F00529223 /* ManagerConection.swift in Sources */,
@@ -309,6 +308,7 @@
 				1143145626068EB300529223 /* HomeRouter.swift in Sources */,
 				1143143D26068D3200529223 /* API.swift in Sources */,
 				1143144E26068E9C00529223 /* HomeViewController.swift in Sources */,
+				114314722606AC4200529223 /* ProductViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

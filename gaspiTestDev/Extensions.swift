@@ -27,3 +27,12 @@ extension UIImageView{
         }.resume()
     }
 }
+//MARK: - Double
+extension Double {
+    func redondear() -> String {
+        let formateador = NumberFormatter()
+        formateador.maximumFractionDigits = 2
+        formateador.roundingMode = .down
+        return formateador.string(from: NSNumber(value: self)) ?? ""
+    }
+}

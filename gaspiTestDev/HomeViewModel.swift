@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 class HomeViewModel {
     private weak var view: HomeViewController?
     private var router: HomeRouter?
@@ -15,5 +16,8 @@ class HomeViewModel {
         self.view = view
         self.router = router
         self.router?.setSourceView(view)
+    }
+    func searchProduct(product: String) -> Observable<[Product]>{
+        return managerConection.searchProduct(product: product)
     }
 }

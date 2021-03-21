@@ -20,7 +20,7 @@ class ManagerConection {
                 if response.statusCode == 200{
                     do {
                         let decoder = JSONDecoder()
-                        let searchResult = try decoder.decode(SimpleResponse.self, from: data)
+                        let searchResult = try decoder.decode(ResponseEccomerce.self, from: data)
                         observer.onNext(searchResult.items)
                     } catch let error{
                         observer.onError(error)
