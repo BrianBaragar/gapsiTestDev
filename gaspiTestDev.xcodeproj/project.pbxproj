@@ -22,6 +22,7 @@
 		114314612606953300529223 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114314602606953300529223 /* Product.swift */; };
 		114314722606AC4200529223 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114314702606AC4200529223 /* ProductViewCell.swift */; };
 		114314732606AC4200529223 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114314712606AC4200529223 /* ProductViewCell.xib */; };
+		11998A812606D327006E3ECC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11998A802606D327006E3ECC /* Constants.swift */; };
 		34E1D1FE3252A872D8899970 /* Pods_gaspiTestDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5834461D10CD43689A75A3C /* Pods_gaspiTestDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		114314602606953300529223 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		114314702606AC4200529223 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
 		114314712606AC4200529223 /* ProductViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
+		11998A802606D327006E3ECC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4AFB74C060A2E38EB4B51417 /* Pods-gaspiTestDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaspiTestDev.debug.xcconfig"; path = "Target Support Files/Pods-gaspiTestDev/Pods-gaspiTestDev.debug.xcconfig"; sourceTree = "<group>"; };
 		C5834461D10CD43689A75A3C /* Pods_gaspiTestDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gaspiTestDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5504F4B83EB379F1BDDAD4 /* Pods-gaspiTestDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaspiTestDev.release.xcconfig"; path = "Target Support Files/Pods-gaspiTestDev/Pods-gaspiTestDev.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				11431459260692F000529223 /* Extensions */,
+				11998A802606D327006E3ECC /* Constants.swift */,
 			);
 			name = Resourses;
 			path = "New Group1";
@@ -309,6 +312,7 @@
 				1143143D26068D3200529223 /* API.swift in Sources */,
 				1143144E26068E9C00529223 /* HomeViewController.swift in Sources */,
 				114314722606AC4200529223 /* ProductViewCell.swift in Sources */,
+				11998A812606D327006E3ECC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
